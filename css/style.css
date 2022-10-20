@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 940px;
+    background: url("../img/main.jpg") no-repeat, center;
+    background-size: cover;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.container {
+    padding: 0 70px;
+}
+
+.header_btn a {
+    color: #ffff;
+    margin-left: 50px;
+}
+
+.phone {
+    padding: 7px 23px;
+    background-color: #CE422C;
+}
+
+.header_tekst h1 {
+    font-size: 40px;
+    color: #ffff;
+    margin-top: 100px;
+    margin-bottom: 41px;
+    font-weight: bold;
+}
+
+.header_tekst a {
+    padding: 11px 63px;
+    border: 2px solid #ffff;
+    color: #ffff;
+
+
+
+}
+
+.main_opis {
+    display: flex;
+    color: #ffff;
+    justify-content: center;
+}
+
+main {
+    background-color: #1E1E1E;
+}
+
+.main_opist_tekst {
+    padding: 50px 0 0 34px;
+}
+
+.main_opist_tekst p {
+    padding-bottom: 20px;
+    margin-top: 43px;
+    margin-bottom: 20px;
+}
+
+.main_opist_tekst a {
+    padding: 13px 59px;
+    background-color: #CE422C;
+    color: white;
+}
+
+.main_opist_tekst h2 {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.main_galery {
+    display: flex;
+}
+
+.main_galery_one {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+
+}
+
+.main_galery_one img {
+    padding: 10px;
+    width: 47%;
+
+
+
+}
+
+.galery {
+    text-align: end;
+    color: #ffff;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.main_galery_two img {
+    height: 725px;
+    width: 100%;
+    object-fit: cover;
+    padding: 10px 0 10px 0;
+
+}
+
+.gal_big {
+    width: 100%;
+    height: 399px;
+    margin-top: 5px;
+
+}
+
+.footer_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+
+
+
+
+}
+
+footer {
+    background-color: #171717;
+    height: 150px;
+
+}
+
+.footer_info h2 {
+    color: #ffff;
+}
+
+.footer_info a {
+    color: #CE422C;
+    
+}
+
+.footer_info p {
+    color: #ffff;
+    font-weight: bold;
+}
